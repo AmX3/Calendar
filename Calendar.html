@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" text="text/css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <title>Calendar</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="calendarContent">
+        <div class="month">
+          <i class="fas fa-angle-left" id="lastMonth"></i>
+          <h1 id="monthOfTheYear"></h1>
+          <i class="fas fa-angle-right" id="nextMonth"></i>
+        </div>
+        <p id="date"></p>
+        <hr />
+        <div class="weekdays">
+          <ul>
+            <li>S</li>
+            <li>M</li>
+            <li>T</li>
+            <li>W</li>
+            <li>T</li>
+            <li>F</li>
+            <li>S</li>
+          </ul>
+        </div>
+        <div class="days" id="days"></div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="javascript.js"></script>
+  </body>
+</html>
